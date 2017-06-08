@@ -1,0 +1,13 @@
+body {
+    margin: 50px 500px;
+}
+
+div {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: green;
+    border: 25px solid black;
+    padding: 200px 50px;
+    outline: solid blue 25px;
+}
