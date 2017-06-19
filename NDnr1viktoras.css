@@ -1,13 +1,19 @@
-body {
-    margin: 50px 500px;
-}
+#abc {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: green;
+    border: 25px solid black;
+    outline: solid blue 25px;
+ }
 
 div {
     color: white;
-    font-size: 40px;
-    text-align: center;
-    background-color: green;
-    border: 25px solid black;
-    padding: 200px 50px;
-    outline: solid blue 25px;
+    font-size: 150%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
